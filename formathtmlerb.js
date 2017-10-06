@@ -39,7 +39,7 @@ define(function(require, exports, module) {
             var path = c9.workspaceDir + tabManager.focussedTab.path;
 
             proc.execFile("htmlbeautifier", {
-                args: [path],
+                args: [path, '--keep-blank-lines', '2'],
                 cwd: '/home/ubuntu/workspace'
             }, function(err, stdout, stderr) {
 
