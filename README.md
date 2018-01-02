@@ -23,7 +23,7 @@ Run the following in c9 terminal:
     # Click Cloud9 -> Open Your Init Script and add the below code
     services.pluginManager.loadPackage([
       "~/.c9/plugins/formathtmlerb/package.json",
-    ])
+    ]);
 
     # Refresh the page
 
